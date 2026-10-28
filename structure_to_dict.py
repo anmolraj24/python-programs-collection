@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # Create a complex student record
     student = StudentRecord(
         student_id="CSE-2024-042",
-        name="Neev Rupareliya",
+        name="Anmol Raj",
         skills=["Python", "Web Development", "Algorithms"],
         level=SkillLevel.ADVANCED
     )

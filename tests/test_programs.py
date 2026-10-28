@@ -56,13 +56,13 @@ class TestStructureToDict(unittest.TestCase):
         self.assertEqual(to_dict([1, 2, 3]), [1, 2, 3])
 
     def test_nested_objects(self):
-        student = StudentRecord("U1", "Neev", ["Python"], SkillLevel.BEGINNER)
+        student = StudentRecord("U1", "Anmol", ["Python"], SkillLevel.BEGINNER)
         student.add_project(Project("Web", ["HTML"], True))
         d = to_dict(student)
         
         self.assertIsInstance(d, dict)
         self.assertEqual(d["student_id"], "U1")
-        self.assertEqual(d["name"], "Neev")
+        self.assertEqual(d["name"], "Anmol")
         self.assertEqual(d["level"], "Beginner")
         self.assertEqual(d["projects"][0]["name"], "Web")
         self.assertTrue(d["projects"][0]["is_active"])

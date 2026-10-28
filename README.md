@@ -41,7 +41,7 @@ python-programs-collection/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Neev2850/python-programs-collection.git
+git clone https://github.com/anmolraj24/python-programs-collection.git
 cd python-programs-collection
 ```
 
@@ -83,7 +83,7 @@ Computes $F_{1000}$ and beyond in sub-millisecond execution times.
 ---
 
 ## 👤 Author
-**Neev Rupareliya**  
+**Anmol Raj**  
 - B.Tech CSE Student, JECRC University  
-- GitHub: [@Neev2850](https://github.com/Neev2850)  
-- Portfolio: [personal-portfolio-mu-eosin-58.vercel.app](https://personal-portfolio-mu-eosin-58.vercel.app)
+- GitHub: [@anmolraj24](https://github.com/anmolraj24)  
+- Portfolio: [personal-portfolio-anmolraj24.vercel.app](https://personal-portfolio-anmolraj24.vercel.app)

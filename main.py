@@ -15,7 +15,7 @@ import json
 
 def show_menu():
     print("\n" + "=" * 50)
-    print("      PYTHON PROGRAMS COLLECTION - NEEV RUPARELIYA")
+    print("      PYTHON PROGRAMS COLLECTION - Anmol Raj")
     print("=" * 50)
     print("1. Calculate Factorial (Iterative & Recursive)")
     print("2. Benchmark Factorial Algorithms")
@@ -65,7 +65,7 @@ def run_cli():
                 print(f"Error: {e}")
 
         elif choice == "5":
-            record = StudentRecord("CSE-101", "Neev Rupareliya", ["Python", "DSA"], SkillLevel.ADVANCED)
+            record = StudentRecord("CSE-101", "Anmol Raj", ["Python", "DSA"], SkillLevel.ADVANCED)
             record.add_project(Project("Portfolio", ["HTML", "CSS", "JS"], True))
             result = to_dict(record)
             print("\nConverted Object -> Dictionary (JSON representation):")
